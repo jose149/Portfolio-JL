@@ -1,5 +1,5 @@
 <template>
-  <div class="hiring">
-    <h1>This is an about page</h1>
-  </div>
+  <section id="section--2" class="section hiring">
+    <h1>This is a hiring page</h1>
+  </section>
 </template>
