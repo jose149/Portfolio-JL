@@ -1,0 +1,23 @@
+.features {
+  &__card {
+    background-color: transparent;
+    box-shadow: $shadow-M;
+    border-radius: $border-radius-S;
+    height: 35rem;
+    width: 30rem;
+    padding: 3rem;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20% repeat(2, 1fr);
+    grid-gap: 2rem;
+    align-items: center;
+
+    &--icon {
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+      object-fit: contain;
+    }
+  }
+}

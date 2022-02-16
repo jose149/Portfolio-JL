@@ -1,30 +1,42 @@
-$color-white: #FFFFFF;
+// COLORS
+$color-white: #ffffff;
+// $color-grey-1: rgb(247, 247, 247); // Elegir uno de los $color-grey-1
+$color-grey-1: rgb(230, 230, 230);
 $color-black: #000000;
 
-// $color-grey-1: #e4e4e4;
-$color-grey-1: #ebebeb;
-$color-grey-2: #c5c5c5;
-$color-grey-3: #202020;
-$color-grey-4: #131313;
+$color-primary-1: #b2ebf2; // Solo en el selection
+$color-primary-2: #00bcd4; // Solo en los degradados y el ContactBtnCTA
+$color-primary-3: #0097a7; // COLOR PRIMARIO
+$color-primary-4: #02707c; // Solo en los degradados
+$color-primary-5: rgb(39, 43, 54); // COLOR SECUNDARIO
 
-$color-primary: #971022;
-$color-primary-dark: #63191c;
-$color-primary-light: #c5152c;
+$gradient: linear-gradient(120deg, $color-primary-2, $color-primary-4);
 
-$color-terciary-dark: #0d2346;
-$color-terciary-light: #3682fd94;
+// FONT
 
+$font-primary: "Lato", serif;
+$font-secundary: "Open Sans", sans-serif;
 
-$color-secundary: #E0B65E;
-$color-secundary-dark: #be9747;
+$font-M: 2rem;
 
-$font-primary: 'Lato', serif;
-$font-secundary: 'Open Sans', sans-serif;
+// SHADOW
 
-// pasa a 10
+$shadow-M: 1px 0 10px rgba($color-black, 0.8);
 
-$bp-largest: 75em;  // 1200px
-$bp-large: 62.5em;  // 1000px
-$bp-medium: 50em;   // 800px;
-$bp-small: 37.5em;  // 600px;
-$bp-smallest: 31.25em;  // 500px;
+// SIZES
+
+$nav-height: 7rem;
+$margin-top: 15rem;
+$border-radius-S: 1rem;
+
+//TRANSITION
+
+$transition-fast: transform 0.1s linear;
+
+// RESPONSIVE
+
+$bp-largest: 75em; // 1200px
+$bp-large: 62.5em; // 1000px
+$bp-medium: 50em; // 800px;
+$bp-small: 37.5em; // 600px;
+$bp-smallest: 31.25em; // 500px;
