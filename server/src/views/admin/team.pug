@@ -1,0 +1,14 @@
+extends ../includes/main-layout.pug
+block content 
+        main
+            h1 Our Team (admin)
+            a(href="/admin/add-worker") add-worker 
+            .grid 
+                each worker in team
+                    header.card__header
+                        h2.product__title #{worker.firstName}
+                    main
+                        img(src="#{worker.imageUrl}", alt="Profile image")
+                        h3 #{worker.quote}
+                        
+                            

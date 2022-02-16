@@ -1,0 +1,8 @@
+extends ../includes/main-layout.pug
+block content 
+        main
+            h1 Our Team
+                .grid 
+                    each worker in team
+                        header.card__header
+                            h1.member__firstName #{worker.firstName}

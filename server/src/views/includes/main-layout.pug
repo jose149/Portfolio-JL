@@ -1,0 +1,27 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title #{pageTitle}
+        block styles 
+    body 
+        header
+            nav
+                ul
+                    li
+                        a(href="/") Index 
+                    li
+                        a(href="/products") Products 
+                    li
+                        a(href="/hiring") Hiring
+                    li
+                        a(href="/team") Our Team
+                    li
+                        ul Log
+                            li
+                                a(href="/log-in") Log In
+                            li 
+                                a(href="/log-up") Log up
+        block content

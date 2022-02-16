@@ -1,0 +1,16 @@
+extends ../includes/main-layout.pug
+block content 
+        form(action="/admin/add-worker", method="POST")
+            label(for="firsName") First Name 
+            input(type="text", name="firsName")
+            label(for="surname") Surname 
+            input(type="text", name="surname")
+            label(for="secondSurname") Second Surname 
+            input(type="text", name="secondSurname")
+            label(for="birthdayDate") Birthday date 
+            input(type="date", name="birthdayDate")
+            label(for="imageUrl") URL Profile Image 
+            input(type="text", name="imageUrl")
+            label(for="quote") Sentence 
+            input(type="text", name="quote")
+            button(type="submit") Add Member
